@@ -12,7 +12,6 @@ public class Game {
         hangman.draw(hangman.getState());
         wordToGuess.displayWord();
         while (!(wordToGuess.guessed()) && (hangman.alive())) {
-            System.out.println(wordToGuess.getWord());
             if (!wordToGuess.tryGuessChar()) {
                 hangman.badGuess();
                 hangman.draw(hangman.getState());

@@ -62,9 +62,4 @@ public class Word {
             return false;
         }
     }
-    // DELETE LATER
-    public String getWord() {
-        return this.word;
-    }
-
 }

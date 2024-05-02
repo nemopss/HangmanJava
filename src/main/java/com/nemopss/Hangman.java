@@ -75,7 +75,7 @@ public class Hangman {
                 System.out.println("   |    / \\");
                 System.out.println("   |");
                 System.out.println("|-------|");
-                System.out.println("ВЫ ПРОИГРАЛИ! Гойда!");
+                System.out.println("ВЫ ПРОИГРАЛИ!");
                 break;
             default:
                 System.out.println("Illegal state!");;
